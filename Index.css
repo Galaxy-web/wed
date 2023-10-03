@@ -1,0 +1,115 @@
+/* Definição de estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 10px;
+    position: center;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    padding:6px;
+    border-radius:30%;
+}
+
+nav a:hover{
+    color: #00FFFF;
+    transition: 0.5s;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #808080;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2{
+    color: #fff;
+    text-align: center;
+}
+
+section p{
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Reset de estilos básicos para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset de estilos básicos para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px; /* A largura máxima do carrossel */
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc; /* Adicione uma borda ao redor do carrossel */
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray; /* Adicione uma borda ao redor das fotos */
+    background-color: #A7C7E7; /* Adicione uma cor de fundo para os slides */
+    box-shadow: 0 4px 8px #A7C7E7; /* Adicione uma sombra */
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px; /* Tamanho máximo das fotos */
+    object-fit: cover; /* Para redimensionar as imagens para preencher o slide */
+}
+
